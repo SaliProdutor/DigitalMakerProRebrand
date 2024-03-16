@@ -16,7 +16,7 @@ export function Footer() {
           </span>
         </h2>
       </div>
-      <Button name="Entrar em contato" />
+      <Button height="5rem" name="Entrar em contato" />
       <ul className=" flex gap-[2rem]">
         <li>
           <a className="text-[1.4rem] cursor-pointer text-digitalmaker-offwhite hover:text-digitalmaker-blue">

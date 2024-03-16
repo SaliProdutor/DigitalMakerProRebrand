@@ -65,6 +65,13 @@ html{
 body{
   font-size: 1.6rem; /* 16px */
 }
+
+.hero{
+    background-image: linear-gradient(to left, transparent 0%, #121214 100%), url("/assets/background-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 ul{
   list-style: none;
   list-style-type: none;

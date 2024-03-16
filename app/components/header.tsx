@@ -5,7 +5,7 @@ import { Button } from './button'
 
 export function Header() {
   return (
-    <div className="flex flex-1 min-w-full bg-digitalmaker-gray h-[9rem] justify-center items-center py-[.9rem] fixed">
+    <div className="flex z-50 flex-1 min-w-full bg-digitalmaker-gray h-[9rem] justify-center items-center py-[.9rem] fixed">
       <div className="flex max-w-[120rem] flex-1 justify-between items-center">
         <div>
           <Image
