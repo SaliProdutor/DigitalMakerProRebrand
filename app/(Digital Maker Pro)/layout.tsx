@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 export const metadata: Metadata = {
   title: 'Digital Maker Pro',
@@ -14,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className=" bg-digitalmaker-gray">
       <body className=" bg-digitalmaker-gray text-digitalmaker-offwhite">
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

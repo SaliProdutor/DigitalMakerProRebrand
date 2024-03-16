@@ -20,9 +20,10 @@ const config = {
     extend: {
       colors: {
         digitalmaker: {
-          blue: "#025AFF",
-          gray: "#121214",
-          offwhite: "#F2F5FF",
+          "blue": "#025AFF",
+          "blue-200": "#2087FF",
+          "gray": "#121214",
+          "offwhite": "#F2F5FF",
         },
         
       },
