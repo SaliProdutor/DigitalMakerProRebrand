@@ -24,6 +24,7 @@ const config = {
           "blue-200": "#2087FF",
           "gray": "#121214",
           "offwhite": "#F2F5FF",
+          "green":"#00E766",
         },
         
       },

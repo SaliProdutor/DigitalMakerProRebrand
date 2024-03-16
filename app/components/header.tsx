@@ -16,7 +16,7 @@ export function Header() {
         </div>
         <div></div>
         <div>
-          <Button name="Login" href="#" />
+          <Button tamanho='sm' name="Login" href="#" />
         </div>
       </div>
     </div>
