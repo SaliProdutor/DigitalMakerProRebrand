@@ -12,7 +12,7 @@ export function CardPorque({vetor, name}:ValueProps){
             <div className="vetor w-[17.5rem] h-[19rem] flex items-center justify-center text-digitalmaker-gray">
                 <Image className=" min-w-[10rem] min-h-[10rem]" width={40} height={40} src={Imagem} alt={vetor}/>
             </div>
-            <h2 className="text-[3rem] text-center leading-[3.5rem] font-bold mt-[3rem]">{name}</h2>
+            <h2 className="text-[3rem] w-[20rem] text-center leading-[3.5rem] font-bold mt-[3rem]">{name}</h2>
             <div className="w-[1rem] h-[1rem] bg-digitalmaker-green rotate-45 mt-[9rem]"/>
         </div>
     )

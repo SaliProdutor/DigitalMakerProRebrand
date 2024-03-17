@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className=" bg-digitalmaker-gray">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/assets/favicon.ico" sizes="any" />
       </head>
       <body className=" bg-digitalmaker-gray text-digitalmaker-offwhite">
         <Header />
