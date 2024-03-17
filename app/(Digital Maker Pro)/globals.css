@@ -81,7 +81,7 @@ body{
     background-size: cover;
 }
 .vetor{
-    background-image: url("/assets/Vetor.svg");
+    background-image: url("/assets/vetorBg.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
