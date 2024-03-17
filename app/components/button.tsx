@@ -10,16 +10,14 @@ interface ButtonProps {
   tamanho: 'sm' | 'lg'
 }
 export function Button({ action, name, variant = 'primary', href, tamanho = 'sm'}: ButtonProps) {
-  const [height, setHeight] = useState(tamanho === 'sm' ? '.5rem' : '2rem')
+  const [height, setHeight] = useState(tamanho === 'sm' ? '4rem' : '8rem')
   return (
     <a
       onClick={action}
       href={href}
-      className={
-        variant === 'primary'
-          ? `bg-digitalmaker-blue flex max-w-[20rem] justify-center items-center text-center hover:bg-digitalmaker-blue-200 py-[${height}] px-[2rem] rounded-[15px] text-digitalmaker-offwhite cursor-pointer transition-all duration-75`
-          : `bg-transparent max-w-[20rem] justify-center items-center text-center hover:bg-digitalmaker-blue py-[${height}] px-[2rem] border-digitalmaker-blue border-[1px] rounded-[5px] cursor-pointer transition-all duration-75`
-      }
+      className={tamanho === 'sm' ? 'bg-digitalmaker-blue hover:bg-digitalmaker-blue-200 h-[4rem] flex max-w-[20rem] justify-center items-center text-center px-[3rem] rounded-[5px] text-digitalmaker-offwhite cursor-pointer'
+      : "bg-digitalmaker-blue hover:bg-digitalmaker-blue-200 h-[5rem] flex max-w-[15rem] justify-center items-center text-center px-[1rem] rounded-[10px] text-digitalmaker-offwhite cursor-pointer"
+    }
     >
       {name}
     </a>
